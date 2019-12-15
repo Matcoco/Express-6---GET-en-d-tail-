@@ -4,7 +4,7 @@ let databaseName = 'company';
 const connection = mysql.createConnection({
     host:'localhost',
     user:'root',
-    password:'A112233a',
+    password:'******', // INSERER VOTRE MOT DE PASSE MYSQL
     database:databaseName
 });
 
